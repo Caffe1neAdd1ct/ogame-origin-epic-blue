@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# https://zvps.uk/ogame/
+# http://ogame1304.de/epicblue/
+
 mkdir -p default-skin
 mkdir -p default-skin/gfx
 mkdir -p default-skin/images
@@ -156,6 +159,8 @@ wget http://ogame1304.de/epicblue/img/b.gif
 wget http://ogame1304.de/epicblue/img/e.gif
 wget http://ogame1304.de/epicblue/img/m.gif
 wget http://ogame1304.de/epicblue/img/r.gif
+wget http://ogame1304.de/epicblue/img/bg1.gif
+wget http://ogame1304.de/epicblue/img/background.jpg
 
 cd ../../
 cd default-skin/gebaeude
