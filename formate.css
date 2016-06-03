@@ -1,0 +1,102 @@
+*, html, body, div {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    background-color: #344055;
+    overflow: visible !important;
+    position: relative !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: visible !important;
+}
+
+#header_top {
+    overflow: visible !important;
+    float: left !important;
+    top: initial !important;
+    right: initial !important;
+    left: initial !important;
+    bottom: initial !important;
+    width: 100%;
+}
+
+
+#leftmenu {
+    float: left;
+    clear: left;
+    max-width: 20% !important;
+}
+
+#leftmenu #menu {
+    width: 200px !important;
+    clear: both;
+}
+
+#leftmenu #menu > p, #leftmenu #menu > a {
+    display: none;
+    visibility: hidden;
+}
+
+#leftmenu #menu table {
+    width: 100% !important;
+    border-collapse: collapse;
+    border: 1px solid #415680;
+    position: relative !important;
+}
+
+#leftmenu #menu table tbody {
+    
+}
+
+#leftmenu #menu table tbody tr {
+    
+}
+
+#leftmenu #menu table tbody tr:last-child {
+    display: none;
+    visibility: hidden;
+}
+
+#leftmenu #menu table tbody tr td {
+    
+}
+
+#leftmenu #menu table tbody tr td {
+    background-image: url('https://zvps.uk/ogame/gfx/info-help.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 100% !important;
+    height: 30px !important;
+}
+
+#leftmenu #menu table tbody tr td img {
+    visibility: hidden;
+}
+
+#leftmenu #menu table tr td  a {
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    display: block;
+}
+
+#content {
+    position: relative !important;
+    display: inline-block !important;
+    float: left !important;
+    top: initial !important;
+    right: initial !important;
+    left: initial !important;
+    bottom: initial !important;
+    width: auto !important;
+}
+
+#messagebox {
+    
+}
