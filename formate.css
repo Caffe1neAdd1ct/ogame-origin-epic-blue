@@ -1,10 +1,15 @@
-*, html, body, div {
-    font-family: sans-serif;
+*, html, body, div, table, tr, td, tbody, thead {
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: normal;
     font-size: 12px;
-    background-color: #344055;
     overflow: visible !important;
     position: relative !important;
+    /*border-collapse: collapse;*/
+}
+
+
+html, body, div {
+    background-color: #344055;
 }
 
 html, body {
@@ -16,6 +21,14 @@ body {
     overflow: visible !important;
 }
 
+a {
+    background-color: none !important;
+}
+
+table, tr, td, tbody, thead {
+    /*border: 1px;*/
+}
+
 #header_top {
     overflow: visible !important;
     float: left !important;
@@ -24,17 +37,76 @@ body {
     left: initial !important;
     bottom: initial !important;
     width: 100%;
+    height: 54px;
 }
 
+#header_top center > table.header {
+    width: 100% !important;
+}
+
+#header_top table.header tr {
+    
+}
+
+/** planet selector container */
+#header_top table.header tr td:first-child {
+    width: 20% !important;
+}
+
+#header_top table.header tr td:first-child table {
+    width: 100% !important;
+    border-spacing: 0;
+}
+
+#header_top table.header tr td:first-child table tr {
+    width: 100% !important;
+}
+
+#header_top table.header tr td:first-child table tr td:first-child {
+    width: 50px !important;
+}
+
+#header_top table.header tr td:first-child table tr td:last-child {
+    width: 100% !important;
+}
+
+#header_top table.header tr td:first-child table tr td:last-child select {
+    width: 100% !important;
+    height: 50px;
+    white-space: pre-wrap;
+}
+
+#header_top table.header tr td:last-child {
+    width: 80% !important;
+}
+
+#header_top table.header tr td:last-child table {
+    width: 100% !important;
+}
+
+#header_top table.header tr td:last-child table tr {
+    width: 100% !important;
+}
+
+#header_top table.header tr td:last-child table tr td {
+    width: 20% !important;
+}
+
+#header_top table.header tr td:last-child table tr:nth-child(2) {
+    display: none;
+    visibility: hidden;
+}
 
 #leftmenu {
     float: left;
     clear: left;
-    max-width: 20% !important;
+    width: 20% !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 #leftmenu #menu {
-    width: 200px !important;
+    width: 100% !important;
     clear: both;
 }
 
@@ -64,7 +136,7 @@ body {
 }
 
 #leftmenu #menu table tbody tr td {
-    
+    padding: 0;
 }
 
 #leftmenu #menu table tbody tr td {
@@ -82,7 +154,7 @@ body {
 #leftmenu #menu table tr td  a {
     width: 100%;
     height: 20px;
-    padding: 5px;
+    padding: 8px 5px;
     display: block;
 }
 
@@ -94,7 +166,19 @@ body {
     right: initial !important;
     left: initial !important;
     bottom: initial !important;
-    width: auto !important;
+    width: 80% !important;
+    margin: 0 !important;
+    padding: 1px 0 0 0 !important;
+}
+
+#content center table {
+    margin: 0 !important;
+    width: 100% !important;
+    border-collapse: collapse;
+}
+
+#content center table tr {
+    border: 1px solid #ffffff !important;
 }
 
 #messagebox {
