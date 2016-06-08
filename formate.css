@@ -178,7 +178,16 @@ table, tr, td, tbody, thead {
 }
 
 #content center table tr {
-    border: 1px solid #ffffff !important;
+    border: 1px solid #415680 !important;
+    border-collapse: collapse;
+}
+
+#content center table tr td {
+    border-collapse: collapse;
+    padding: 0;
+}
+#content center table tr td table {
+    border-collapse: collapse;
 }
 
 #messagebox {
