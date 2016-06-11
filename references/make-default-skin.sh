@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# https://zvps.uk/ogame/
 # http://ogame1304.de/epicblue/
 
 mkdir -p default-skin
