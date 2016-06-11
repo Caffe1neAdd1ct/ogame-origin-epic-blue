@@ -13,21 +13,18 @@ cd default-skin
 wget http://ogame1304.de/epicblue/index.html
 wget http://ogame1304.de/epicblue/formate.css
 
-cd default-skin/gfx
+cd gfx
 wget http://ogame1304.de/epicblue/gfx/info-help.jpg
 wget http://ogame1304.de/epicblue/gfx/ogame-produktion.jpg
 wget http://ogame1304.de/epicblue/gfx/user-menu.jpg
 
-
-cd ../../
-cd default-skin/images
+cd ../images
 wget http://ogame1304.de/epicblue/images/energie.gif
 wget http://ogame1304.de/epicblue/images/deuterium.gif
 wget http://ogame1304.de/epicblue/images/kristall.gif
 wget http://ogame1304.de/epicblue/images/metall.gif
 
-cd ../../
-cd default-skin/planeten
+cd ../planeten
 wget http://ogame1304.de/epicblue/planeten/dschjungelplanet01.jpg
 wget http://ogame1304.de/epicblue/planeten/dschjungelplanet02.jpg
 wget http://ogame1304.de/epicblue/planeten/dschjungelplanet03.jpg
@@ -91,8 +88,7 @@ wget http://ogame1304.de/epicblue/planeten/mond.jpg
 wget http://ogame1304.de/epicblue/planeten/debris.jpg
 
 
-cd ../../
-cd default-skin/planeten/small
+cd small
 wget http://ogame1304.de/epicblue/planeten/small/s_dschjungelplanet01.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_dschjungelplanet02.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_dschjungelplanet03.jpg
@@ -152,8 +148,7 @@ wget http://ogame1304.de/epicblue/planeten/small/s_wuestenplanet02.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_wasserplanet03.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_wuestenplanet04.jpg
 
-cd ../../../
-cd default-skin/img
+cd ../../img
 wget http://ogame1304.de/epicblue/img/b.gif
 wget http://ogame1304.de/epicblue/img/e.gif
 wget http://ogame1304.de/epicblue/img/m.gif
@@ -161,9 +156,7 @@ wget http://ogame1304.de/epicblue/img/r.gif
 wget http://ogame1304.de/epicblue/img/bg1.gif
 wget http://ogame1304.de/epicblue/img/background.jpg
 
-cd ../../
-cd default-skin/gebaeude
-
+cd ../gebaeude
 wget http://ogame1304.de/epicblue/gebaeude/106.gif
 wget http://ogame1304.de/epicblue/gebaeude/108.gif
 wget http://ogame1304.de/epicblue/gebaeude/109.gif

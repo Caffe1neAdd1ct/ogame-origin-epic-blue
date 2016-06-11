@@ -1,3 +1,4 @@
+
 /** General overrides and fixes to main html */
 *, html, body, div, table, tr, td, tbody, thead {
     font-family: 'Open Sans', sans-serif !important;
@@ -5,11 +6,13 @@
     font-size: 12px;
     overflow: visible !important;
     position: relative !important;
+    
     /*border-collapse: collapse;*/
 }
 
-html, body, div {
+html, body, div, td.c {
     background-color: #344055;
+    background-image: none;
 }
 
 html, body {
@@ -199,7 +202,7 @@ table, tr, td, tbody, thead {
 }
 
 #leftmenu #menu table tbody tr td {
-    background-image: url('https://zvps.uk/ogame/gfx/info-help.jpg');
+    background-image: url('gfx/user-menu.jpg');
     background-repeat: repeat-x;
     background-size: cover;
     width: 100% !important;
