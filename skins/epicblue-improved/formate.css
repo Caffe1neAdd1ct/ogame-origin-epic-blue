@@ -1,3 +1,60 @@
+/** Google Fonts */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 
 /** General overrides and fixes to main html */
 *, html, body, div, table, tr, td, tbody, thead {
@@ -10,7 +67,7 @@
     /*border-collapse: collapse;*/
 }
 
-html, body, div, td.c {
+html, body, div, td.c, td.l {
     background-color: #344055;
     background-image: none;
 }
@@ -220,6 +277,7 @@ table, tr, td, tbody, thead {
     display: block;
 }
 
+/** general content fixes */
 #content {
     position: relative !important;
     display: inline-block !important;
@@ -233,12 +291,14 @@ table, tr, td, tbody, thead {
     padding: 0 !important;
 }
 
+/** expand general content table to full width */
 #content center table {
     margin: 0 !important;
     width: 100% !important;
     border-collapse: collapse;
 }
 
+/** content table border */
 #content center table tr {
     border: 1px solid #415680 !important;
     border-collapse: collapse;
@@ -251,6 +311,58 @@ table, tr, td, tbody, thead {
 #content center table tr td table {
     border-collapse: collapse;
 }
+
+/** Galaxy View */
+#content center form#galaxy_form {
+    margin-bottom: 0;
+}
+
+/** left column for galaxy and system navigation and right column for display button */
+#content center form#galaxy_form table#t1 tbody > tr.header:first-child, #content center form#galaxy_form table#t1 tbody > tr.header:last-child {
+    display: table-cell;
+}
+
+#content center form#galaxy_form table#t1 tbody tr.header:first-child {
+    text-align: right;
+    width: 60%;
+}
+
+#content center form#galaxy_form table#t1 tbody tr.header:last-child {
+    text-align: left;
+    width: 40%;
+}
+
+#content center form#galaxy_form table#t1 tbody tr.header:first-child > td.header {
+    display: inline-block;
+}
+
+#content center form#galaxy_form table#t1 tbody tr.header:first-child td.header table.header tbody tr:first-child {
+    display: none;
+    visibility: hidden;
+}
+
+#content center form#galaxy_form table#t1 tbody tr.header:first-child td.header table.header tbody tr:last-child {
+    display: inline-block;
+    border: none !important;
+}
+
+#content center form#galaxy_form table#t1 tbody tr.header:first-child td.header table.header tbody tr:last-child td.l input {
+    height: 37px;
+    width: 45px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#content center form#galaxy_form table#t1 tbody tr.header:first-child td.header:first-child table.header tbody tr:last-child td.l:last-child input {
+    margin-right: 10px;
+}
+
+#content center form#galaxy_form table#t1 tbody > tr.header:last-child td.header:first-child input {
+    margin: 0 10px;
+    height: 37px;
+    width: 75px;
+}
+
 
 #messagebox {
     
