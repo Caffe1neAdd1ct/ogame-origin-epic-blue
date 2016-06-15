@@ -85,6 +85,10 @@ html, body {
     padding: 0;
 }
 
+table, tr, th, td {
+    color: #ffffff;
+}
+
 /** Fix for popup div to work with new layout rules */
 div#overDiv {
     position: fixed !important;
