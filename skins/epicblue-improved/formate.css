@@ -57,7 +57,7 @@
 }
 
 /** General overrides and fixes to main html */
-*, html, body, div, table, tr, td, tbody, thead {
+*, html, body, div, table, tr, td, th, tbody, thead {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: normal;
     font-size: 12px;
@@ -91,8 +91,37 @@ table, tr, th, td {
 
 /** Fix for popup div to work with new layout rules */
 div#overDiv {
-    position: fixed !important;
+    position: absolute !important;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    width: 250px;
+    border: 1px solid #415680;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+div#overDiv a {
+    border: 1px solid;
+    padding: 3px 2px;
+    display: block;
+    margin: 2px;
+    text-align: center;
+}
+
+div#overDiv br {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    display: none;
+}
+
+div#overDiv table {
     
+}
+
+div#overDiv table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
 }
 
 body {
@@ -367,6 +396,78 @@ table, tr, td, tbody, thead {
     width: 75px;
 }
 
+/** galaxy table color rows and hover highlight */
+#content center form#galaxy_form + table tbody tr th {
+    background: none !important;
+}
+
+#content center form#galaxy_form + table tbody tr:nth-child(odd) {
+    background-color: #415680;
+}
+
+#content center form#galaxy_form + table tbody tr:nth-child(even),
+#content center form#galaxy_form + table tbody tr td.c {
+    background-color: #344566;
+}
+
+#content center form#galaxy_form + table tbody tr {
+    height: 30px;
+}
+
+#content center form#galaxy_form + table tbody tr:hover {
+    height: 30px;
+}
+
+/** stats a link for mobile devices stop hitting top of page */
+#content center table tbody tr th:first-child a:after {
+/*    content: attr(onmouseover );*/
+}
+
+#content center form table tbody tr td.l:first-child {
+    white-space: nowrap;
+}
+
+/** set width for ship/def/resea image cells */
+#content center form:not(#galaxy_form) table tbody tr td.l:nth-child(2),
+#content center > table tbody tr td.l:nth-child(2) {
+    width: 100%;
+}
+
+/** reset table cell width after building/shipyard/research picture cell width setting using the empty center tag only available on the technology page */
+#content center + center table tbody tr td.l:nth-child(2) {
+    width: 50%;
+}
+/** technology table color rows and highlighting */
+#content center + center table tbody tr td {
+    background: none !important;
+}
+#content center + center table tbody tr:nth-child(odd) {
+    background-color: #415680;
+}
+#content center + center table tbody tr:nth-child(even) {
+    background-color: #344566;
+}
+#content center + center table tbody tr:nth-child(1),
+#content center + center table tbody tr:nth-child(16),
+#content center + center table tbody tr:nth-child(32),
+#content center + center table tbody tr:nth-child(47),
+#content center + center table tbody tr:nth-child(58) {
+    background: none !important;
+    border: none;
+    margin: 20px 0 10px 0;
+    display: table;
+}
+#content center + center table tbody tr:nth-child(1) {
+    margin: 0 0 10px 0;
+}
+#content center + center table tbody tr td {
+    vertical-align: middle;
+    height: 25px;
+}
+#content center + center table tbody tr td a {
+    display: block;
+    padding: 0 0 0 5px;
+}
 
 #messagebox {
     
