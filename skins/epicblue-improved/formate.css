@@ -94,7 +94,7 @@ div#overDiv {
     position: absolute !important;
     overflow-y:scroll;
     overflow-x:hidden;
-    width: 250px;
+    max-width: 250px;
     border: 1px solid #415680;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
@@ -107,15 +107,12 @@ div#overDiv a {
     text-align: center;
 }
 
-div#overDiv br {
+/** only remove br effect on galaxy view popup for planet hover */
+div#overDiv table tbody tr td table tbody tr td font table tbody tr:nth-child(2) th:nth-child(2) br {
     height: 0;
     width: 0;
     visibility: hidden;
     display: none;
-}
-
-div#overDiv table {
-    
 }
 
 div#overDiv table {
@@ -225,6 +222,7 @@ table, tr, td, tbody, thead {
         -ms-border-radius: 2px;
         border-radius: 2px;
         font-size: 10px;
+        font-weight: bold;
 }
 
 #header_top table.header tr td:last-child table tr:first-child td:first-child:hover:after {
