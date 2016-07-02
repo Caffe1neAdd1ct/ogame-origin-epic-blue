@@ -130,7 +130,7 @@ wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet03.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet04.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet05.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet06.jpg
-wget http://ogame1304.de/epicblue/planeten/small/s_rockenplanet07.jpg
+wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet07.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet08.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet09.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_trockenplanet10.jpg
