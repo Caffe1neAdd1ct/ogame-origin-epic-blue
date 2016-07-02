@@ -147,6 +147,7 @@ wget http://ogame1304.de/epicblue/planeten/small/s_wuestenplanet01.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_wuestenplanet02.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_wasserplanet03.jpg
 wget http://ogame1304.de/epicblue/planeten/small/s_wuestenplanet04.jpg
+wget http://ogame1304.de/epicblue/planeten/small/s_mond.jpg
 
 cd ../../img
 wget http://ogame1304.de/epicblue/img/b.gif
