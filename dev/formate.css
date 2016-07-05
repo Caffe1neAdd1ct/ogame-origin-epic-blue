@@ -27,6 +27,14 @@ html, body {
     padding: 0;
 }
 
+body {
+}
+
+#content, #header_top {
+    background: transparent;
+}
+
+
 table, tr, th, td {
     color: #ffffff;
 }
@@ -229,14 +237,27 @@ table, tr, td, tbody, thead {
 
 #leftmenu #menu table tbody tr td {
     padding: 0;
-}
-
-#leftmenu #menu table tbody tr td {
-    background-image: url('gfx/user-menu.jpg');
-    background-repeat: repeat-x;
-    background-size: cover;
     width: 100% !important;
     height: 30px !important;
+}
+
+#leftmenu #menu table tbody tr:nth-child(1) td {
+    position: relative;
+    text-align: center;
+    background-color: #344566 !important;
+}
+
+#leftmenu #menu table tbody tr:nth-child(1) td:after {
+    content: "Epic Blue Improved";
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 35px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #leftmenu #menu table tbody tr td img {
@@ -350,6 +371,50 @@ table, tr, td, tbody, thead {
     background-color: #344566;
 }
 
+#content center form#galaxy_form + table tbody tr:nth-child(6) th:nth-child(2) > a,
+#content center form#galaxy_form + table tbody tr:nth-child(7) th:nth-child(2) > a,
+#content center form#galaxy_form + table tbody tr:nth-child(8) th:nth-child(2) > a  {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#content center form#galaxy_form + table tbody tr:nth-child(6) th:nth-child(2) > a,
+#content center form#galaxy_form + table tbody tr:nth-child(8) th:nth-child(2) > a {
+    background-color: #344566;
+}
+#content center form#galaxy_form + table tbody tr:nth-child(7) th:nth-child(2) > a {
+    background-color: #415680;
+}
+
+#content center form#galaxy_form + table tbody tr:nth-child(6) th:nth-child(2),
+#content center form#galaxy_form + table tbody tr:nth-child(7) th:nth-child(2),
+#content center form#galaxy_form + table tbody tr:nth-child(8) th:nth-child(2)  {
+    height: 30px;
+    background-color: #009966 !important;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#content center form#galaxy_form + table tbody tr:nth-child(6) th:nth-child(2):after,
+#content center form#galaxy_form + table tbody tr:nth-child(7) th:nth-child(2):after,
+#content center form#galaxy_form + table tbody tr:nth-child(8) th:nth-child(2):after  {
+    content: 'Available for Colonization';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
 #content center form#galaxy_form + table tbody tr {
     height: 30px;
 }
@@ -358,10 +423,7 @@ table, tr, td, tbody, thead {
     height: 30px;
 }
 
-/** stats a link for mobile devices stop hitting top of page */
-#content center table tbody tr th:first-child a:after {
-/*    content: attr(onmouseover );*/
-}
+
 
 #content center form table tbody tr td.l:first-child {
     white-space: nowrap;
