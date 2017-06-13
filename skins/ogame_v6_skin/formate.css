@@ -1,0 +1,1235 @@
+/*******************/
+/*  OGAME v6 SKIN  */
+/*******************/
+
+., #, td, th, textarea, body, table
+{
+  font-family	       : Tahoma,sans-serif;
+  font-size	           : 11px;
+}
+
+img
+{
+  border               : 0px;
+}
+
+p table
+{
+  border               : 0px;
+}
+
+p td
+{
+  text-align           : center;
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+}
+
+table table
+{
+  border               : 0px;
+}
+
+table table td
+{
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+}
+
+body
+{
+  color                		: #E6EBFB;
+  margin-top          	 	: 1px;
+  margin-left        		: 1px;
+  background-image     		: url(img/background.jpg);
+  background-size: 100% 100%;
+  background-attachment		: fixed;
+  background-repeat    		: no-repeat;
+  background-position  		: top left;
+  background-color     		: #0d1b35;
+  scrollbar-arrow-color		: #E6EBFB;
+  scrollbar-base-color 		: #344566;
+  scrollbar-track-color		: #344566;
+  scrollbar-face-color 		: #344566;
+  scrollbar-highlight-color	: #344566;
+  scrollbar-3dlight-color	: #465673;
+  scrollbar-darkshadow-color: #344566;
+  scrollbar-shadow-color	: #465673;
+  font-size            		: 11px;
+  font-family          		: Tahoma,sans-serif;
+}
+
+body form table th table input
+{
+  width: 60px;
+}
+
+th, td.a, td.b, td.c, td.f,
+td.g, td.h, td.i, td.j, td.k, td.l, td.m,
+td.n, td.o, td.q, td.r, td.v, .style td,
+textarea, p td, table.s th img, table[border="1"] td
+{
+  border: 1px #000 solid;
+  font-size: 11px;
+  font-family: Tahoma,sans-serif;
+}
+
+input, select, textarea {
+	border: 0px;
+}
+
+th, td.a, td.b, td.c, td.f, td.g,
+td.h, td.i, td.j, td.k, td.m, td.o, td.q, td.r,
+td.v, td.s, .style td, p td, table[border="1"] td
+{
+	background-color: #0d1014;
+}
+
+/*SI SE QUIERE CAMBIAR EL ESTILO DE LA TABLA SOLO BASTA CON AGREGAR EL
+CSS DESEADO DENTRO DE LAS SIGUIENTES LINEAS*/
+
+/*#content table[width="519"] {
+}*/
+
+
+th
+{
+  text-align           : center;
+  padding-left         : 3px;
+  padding-right        : 3px;
+}
+
+td.a
+{
+  height               : 39px;
+  text-align           : center;
+}
+
+td.b
+{
+  padding              : 3px;
+}
+
+td.c
+{
+	border: 0;
+	background: url("img/header.png") no-repeat;
+	background-size: 100% 100%;
+	height: 25px;
+  font-weight          : bold;
+  text-align: center;
+}
+
+td.f
+{
+  color                : #E6EBFB;
+  background-color     : #141729;
+}
+ 
+
+textarea
+{
+  width                : 100%;
+}
+
+td.g
+{
+  font-weight          : bold;
+  text-align           : right;
+  color                : #E6EBFB;
+}
+
+td.h
+{
+  text-align           : center;
+  color                : #E6EBFB;
+}
+
+td.i
+{
+  text-align           : center;
+  color                : #E6EBFB;
+}
+
+td.j
+{
+  text-align           : center;
+  color                : #E6EBFB;
+}
+
+td.k input
+{
+  text-align           : center;
+  color                : #000;
+}
+
+/*BOton para subir de nivel 'x' investigacion*/
+td.k a font[color="#00FF00"] {
+  background: url("img/upgrade.png") no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff;
+}
+
+td.k a font[color="#00FF00"]:hover {
+  background: url("img/upgrade_hover.png") no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff;
+}
+
+td.k a br {
+  display: none;
+}
+
+tr td.k:nth-last-child(1) {
+  width: 127px;
+}
+
+/*Botón deshabilitado*/
+/*Boton para subir 'x' investigacion*/
+
+
+td.l
+{
+  color                : #E6EBFB;
+  vertical-align       : top;
+  padding              : 3px;
+  background-color     : #0d1014;
+}
+
+/*Boton para subir de nivel 'x' edificio*/
+td.l a font[color="#00FF00"] {
+	background: url("img/upgrade.png") no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: transparent;
+}
+
+td.l a font[color="#00FF00"]:hover {
+	background: url("img/upgrade_hover.png") no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: transparent;
+}
+
+td.l a br {
+	display: none;
+}
+
+tr td.l:nth-last-child(1) {
+	width: 110px;
+  text-align: center;
+}
+
+
+/*Botón deshabilitado*/
+/*Subir 'x' edificio*/
+
+
+td.m
+{
+  font-weight          : bold;
+  text-align           : right;
+  width                : 86px;
+  color                : #E6EBFB;
+}
+
+td.n
+{
+  font-weight          : bold;
+  text-align           : right;
+  width                : 89px;
+  text-align           : center;
+  color                : #E6EBFB;
+}
+
+td.o
+{
+  text-align           : center;
+  color                : #E6EBFB;
+}
+
+td.q
+{
+  font-weight          : bold;
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+  text-align           : center;
+  vertical-align       : middle;
+  color                : #E6EBFB;
+}
+
+td.r
+{
+  text-align           : right;
+  color                : #E6EBFB;
+}
+
+td.v
+{
+  font-weight          : bold;
+  text-align           : right;
+  color                : #f7f7f7;
+}
+
+td.s
+{
+  color                : #E6EBFB;
+}
+
+table.s th
+{
+  border               : 0px;
+}
+
+table.s th img
+{
+  width                : 89px;
+  height               : 89px;
+}
+
+div.z
+{
+  font-weight          : bold;
+  color                : #E6EBFB;
+}
+
+a
+{
+  color                : #E6EBFB;
+  text-decoration      : none;
+  font-weight          : bold;
+}
+
+a.s
+{
+  color                : #E6EBFB;
+}
+
+a.t
+{
+  color                : #E6EBFB;
+}
+
+a:hover
+{
+  color                : #CDD7F8;
+  text-decoration      : underline;
+}
+
+body.style td
+{
+  color                : #E6EBFB;
+  border-top           : 0px; 
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+}
+
+body.style div a
+{
+  height               : 100%;
+  width                : 100%;
+  color                : #f2f2f2;
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+}
+
+body.style div a:link
+{
+  height               : 100%;
+  width                : 100%;
+  color                : #f2f2f2;
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+}
+
+body.style div a:visited
+{
+  height               : 100%;
+  width                : 100%;
+  color                : #f2f2f2;
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+}
+
+body.style div a:hover
+{
+  background-color     : #415680;
+  height               : 100%;
+  width                : 100%;
+  text-decoration      : none;
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+  color                : #E6EBFB;
+}
+
+body.style center a:hover
+{
+  text-decoration      : none;
+}
+
+body.style
+{
+  margin-top           : 34px;  
+  background-color     : #0d1b35;  
+  background-image     : url(img/menu.jpg);
+  background-position  : top left;
+}
+
+body.style table 
+{
+  margin-top	     : 6px;
+}
+
+body.style a[href="mailto:barrierefrei@ogame.de"]:after 
+{ 
+  content:"Epic Blue XXI";
+  font-size: 11px;
+  font-weight: bold;
+  color: #E6EBFB;
+}
+body.style p 
+{ 
+	margin-top: 0;
+}
+
+h1
+{
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+  border-bottom        : 0px #344566;
+  width                : 98%;
+  text-transform       : capitalize;
+}
+
+
+input[type="text"], input[type="password"], input[name="galaxy"], input[name="system"], input[name="planet"], tr[height="20"] input
+{ 
+  background-color: #b3c3cb;
+  border: 1px solid #668599;
+  border-bottom-color: #d3d9de;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px 0 #454f54;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  width:100px;
+  height: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+} 
+
+textarea
+{ 
+  background-color: #b3c3cb;
+  border: 1px solid #668599;
+  border-bottom-color: #d3d9de;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px 0 #454f54;
+  color: #000;
+  font-size: 12px;
+  text-align: left;
+  line-height: 20px;
+  padding: 2px 5px;
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+}
+
+
+input[value="continue"], input[value="Weiter"] {
+  background: url("img/send.png") no-repeat;
+  border: 0px !important;
+  background-size: 100% 100%;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+input[value="continue"]:hover, input[value="Weiter"]:hover {
+  background: url("img/send_hover.png") no-repeat;
+  border: 0px !important;
+  background-size: 100% 100%;
+  color: #fff;
+  font-weight: bold;
+}
+
+input[type="text"]:focus, textarea:focus {background-color: #fff;}
+input[value="richiama"] {margin-top:10px;}
+input {text-align:center;}
+input[name="hp"], input[name="logo"] {text-align:left;}
+
+input[name="db_character"], input[name="db_password"], input[name="newpass1"], input[name="newpass2"]
+{
+	width: 171px;
+}
+
+input[name="betreff"], input[name="to"]
+{
+	width: 261px;
+}
+
+input[name="dpath"]
+{
+	width: 100%;
+}
+
+input[name="searchtext"] {
+	width: 141px;
+}
+
+input[name="galaxy"], input[name="system"], input[name="planet"] {
+	width: 40px !important;
+}
+
+
+
+
+input[type="reset"], input[value="send"], input[value="Absenden"], input[value="Delete"], input[value="Löschen"], 
+input[value="search"], input[value="Los gehts!"], input[value="Display"], input[value="Anzeigen"], input[value="Confirm"], 
+input[value="ok"], input[value="save changes"], input[value="Änderungen speichern"], input[name="action"] {
+  background-image: url("img/btn.png") !important;
+  background-size: 100% 100%;
+  border-radius: 3px;
+}
+
+input[type="reset"]:hover, input[value="send"]:hover, input[value="Absenden"]:hover, input[value="Delete"]:hover, input[value="Löschen"]:hover, 
+input[value="search"]:hover, input[value="Los gehts!"]:hover, input[value="Display"]:hover, input[value="Anzeigen"]:hover, input[value="Confirm"]:hover, 
+input[value="ok"]:hover, input[value="save changes"]:hover, input[value="Änderungen speichern"]:hover, input[name="action"]:hover{
+  background-image: url("img/btn_hover.png") !important;
+  background-size: 100% 100%;
+  border-radius: 3px;
+}
+	
+
+/*GALAXY BUTTONS*/
+
+/*Left Arrow*/
+input[name="galaxyLeft"] {
+	background: url("img/left.png") no-repeat;
+	background-size: 100% 100%;
+}
+input[name="galaxyLeft"]:hover {
+	background: url("img/left_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+input[name="systemLeft"] {
+	background: url("img/left.png") no-repeat;
+	background-size: 100% 100%;
+}
+input[name="systemLeft"]:hover {
+	background: url("img/left_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+/*Right Arrow*/
+input[name="galaxyRight"] {
+	background: url("img/right.png") no-repeat;
+	background-size: 100% 100%;
+}
+input[name="galaxyRight"]:hover {
+	background: url("img/right_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+input[name="systemRight"] {
+	background: url("img/right.png") no-repeat;
+	background-size: 100% 100%;
+}
+input[name="systemRight"]:hover {
+	background: url("img/right_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+/*SET STYLE TO SELECT TAG*/
+
+/*Select in defense page*/
+select[name="auftr"] {
+	background: #2f3945;
+	background: -webkit-linear-gradient(#2f3945, #0d1115); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2f3945, #0d1115); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2f3945, #0d1115); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2f3945, #0d1115); /* Standard syntax (must be last) */
+    border: 1px #000 solid;
+    width: auto;
+}
+select[name="auftr"]:hover {
+	background: #2f3945;
+	background: -webkit-linear-gradient(#2f3945, #0d1115); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2f3945, #0d1115); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2f3945, #0d1115); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2f3945, #0d1115); /* Standard syntax (must be last) */
+    border: 1px #000 solid;
+    width: auto;
+}
+
+/*Select in fleet dispatch*/
+select[name="planettype"] {
+	background: url("img/planet_sel.png") no-repeat;
+	background-size: 80px 100%;
+	width: 80px !important;
+}
+select[name="planettype"]:hover {
+	background: url("img/planet_sel.png") no-repeat;
+	background-size: 80px 100%;
+	width: 80px !important;
+}
+
+/*Select in galaxy when you want to deploy IP Misiles*/
+select[name="pziel"] {
+	background: url("img/notes_sel.png") no-repeat;
+	background-size: 100% 100%;
+}
+select[name="pziel"]:hover {
+	background: url("img/notes_sel.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+/*Select in settings menu*/
+select[name="settings_order"] {
+	background: url("img/notes_sel.png") no-repeat;
+	background-size: 100% 100%;
+}
+select[name="settings_order"]:hover {
+	background: url("img/notes_sel_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+select[name="settings_sort"] {
+	width: 250px;
+	background: url("img/msg_sel.png") no-repeat;
+	background-size: 100% 100%;
+}
+select[name="settings_sort"]:hover {
+	width: 250px;
+	background: url("img/msg_sel_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+
+/*Select in notes window*/
+select[name="u"] {
+	background: url("img/notes_sel.png") no-repeat;
+	background-size: 100% 100%;
+}
+select[name="u"]:hover {
+	background: url("img/notes_sel_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+
+/*Select in messages menu*/
+select[name="deletemessages"] {
+	width: 250px;
+	background: url("img/msg_sel.png") no-repeat;
+	background-size: 100% 100%;
+}
+select[name="deletemessages"]:hover {
+	width: 250px;
+	background: url("img/msg_sel_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+/*Selects in resource settings*/
+select[name="last1"], select[name="last2"], select[name="last3"], select[name="last3"], select[name="last4"], select[name="last212"], select[name="speed"] {
+	width: 78px !important;
+	background: url("img/percent.png") no-repeat 100% !important;
+}
+select[name="last1"]:hover, select[name="last2"]:hover, select[name="last3"]:hover, select[name="last3"]:hover, select[name="last4"]:hover, select[name="last212"]:hover, select[name="speed"]:hover {
+	width: 78px !important;
+	background: url("img/percent_hover.png") no-repeat 100% !important;
+}
+
+/*Planets select*/
+select[size="1"] {
+	background: url("img/notes_sel.png") no-repeat;
+	background-size: 100% 100%;
+}
+select[size="1"]:hover {
+	background: url("img/notes_sel_hover.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+/*td.header[style="width:32;"] tr
+:nth-child(2) {
+	width: 179px;
+	background: url("img/msg_sel.png") no-repeat 100% center;
+}
+
+td.header[style="width:32;"] tr
+:nth-child(2):hover {
+	width: 179px;
+	background: url("img/msg_sel_hover.png") no-repeat 100% center;
+}*/
+
+select {
+    border: none;
+    width: 180px;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select
+{
+	background: url("img/notes_sel.png") no-repeat;
+	background-size: 87.5% 100%;
+	color: #fff;
+	padding: 2px;
+}
+
+select:hover {
+	background: url("img/notes_sel_hover.png") no-repeat;
+	background-size: 87.5% 100%;	
+}
+
+
+option {
+	border: none;
+	box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+option {
+	background: url("img/option.png") no-repeat;
+	background-size: 100% 100%;
+	background-color: #000;
+	border: 0px;
+}
+
+option:hover {
+	background: url("img/select_hover.png") no-repeat;
+	background-size: 100% 100%;
+	background-color: #000;
+	border: 0px;
+}
+
+/*Planet list*/
+table.header {
+	margin-right: 85px;
+}
+
+/*Resources table*/
+table[id="resources"] {
+	padding-right: 90px;
+}
+
+
+table[width="519"] tr th form
+{
+margin-top:10px;
+}
+
+body.style table tr td img
+{
+  border               : 0px #000000 dashed;
+}
+
+body.style table
+{
+  border-bottom        : 0px #000000 solid;
+  background-position  : center;
+  text-align           : center;
+}
+
+td {
+	background: transparent;
+}
+
+body.style td
+{
+  height               : 0px;
+  background-color     : transparent;
+  background-image     : url(img/background_dark.jpg);
+  background-color     : #fff;
+  color                : #BFBFBF;
+  border               : 1px #415680 solid;
+  font-size            : 11px;
+  font-family          : Tahoma,sans-serif;
+  background-repeat    : no-repeat;
+  background-position  : right;  
+  text-align           : center;
+}
+body.style td:hover
+{
+  background-image     : url(img/link.gif);
+  background-position  : center;
+  background-repeat    : no-repeat;
+}
+
+/* Proprietà Tooltip */
+table tr th.tooltip_border tr th 
+{
+  padding-left         : 3px;
+  padding-right        : 1px;
+  border               : 1px;
+  border-color	  	   : #415680;
+}
+table tr.tooltip_border
+{
+  background-color     : transparent;
+}
+
+
+/*Tooltip*/
+#overDiv {
+	border: 1px #435569 solid;
+}
+
+#overDiv td, #overDiv th { /* Annulation des mise en forme par défaut */
+  background-color     : transparent;
+  background-image     : none;
+  border               : none;
+}
+
+#overDiv table {
+	background: #2f3945;
+	background: -webkit-linear-gradient(#2f3945, #0d1115); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2f3945, #0d1115); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2f3945, #0d1115); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2f3945, #0d1115); /* Standard syntax (must be last) */
+	background-color     : transparent;
+	background-position  : left top;
+	color                : #808080;
+}
+
+/* Mostra flotta scritta in andata */
+body center table tr.flight th span a[title]:after 
+{content:" ("attr(title)")"; color:#FF9900;}
+/* Mostra flotta scritta in ritorno */
+body center table tr.return th span a[title]:after 
+{content:" ("attr(title)")"; color:#FFCC66;}
+/* Mostra flotta nella schermata falange */
+body center table tr th font a[title]:after 
+{content:" ("attr(title)")"; color:#FFA500;}
+/* Fa lampeggiare la flotta nemica in caso di attacco o spionaggio */
+.attack a[title]:after {text-decoration: blink;} 
+.espionage a[title]:after {text-decoration: blink;}
+
+/* ############# Colori Flotte ############# */
+tr.flight {
+	border: 2px;
+}
+/* Schieramento */
+tr.flight th span.owndeploy {color:#36B588;}
+tr.flight th span.owndeploy a {color:#fff;}
+/* Trasporto */
+tr.flight th span.owntransport {color:#7EAD3D;}
+tr.flight th span.owntransport a {color:#fff;}
+/* Attacco proprio e nemico */
+tr.flight th span.ownattack {color:#D43635;}
+tr.flight th span.ownattack a {color:#fff;}
+tr.flight th span.attack {color:#D43635;}
+/* Spionaggio proprio e nemico */
+tr.flight th span.ownespionage {color:#ffe400;}
+tr.flight th span.ownespionage a {color:#fff;}
+tr.flight th span.espionage {color:#D43635;}
+tr.flight th span.espionage a {color:#f00;}
+/* Riciclaggio */
+tr.flight th span.ownharvest {color:#11A140;}
+tr.flight th span.ownharvest a {color:#fff;}
+/* Colonizzazione */
+tr.flight th span.owncolony {color:#2BBFBF;}
+tr.flight th span.owncolony a {color:#fff;}
+/* Attacco federale proprio e nemico */
+tr.flight th span.ownfederation {color:#D43635;}
+tr.flight th span.ownfederation a {color:#fff;}
+tr.flight th span.federation {color:#D43635;}
+tr.flight th span.federation a {color:#f00;}
+/* Distruzione luna propria e nemica */
+tr.flight th span.owndestroy {color:#FF3356;}
+tr.flight th span.owndestroy a {color:#FFF;}
+tr.flight th span.destroy {color:#FF3356;}
+tr.flight th span.destroy a {color:#F00;}
+/* Appoggio su pianeta alleato */
+tr.flight th span.ownhold {color:#D57936;}
+tr.flight th span.ownhold a{color:#fff;}
+/* Attacco missilistico proprio e nemico */
+tr th span.ownmissile {color:#367eb5;}
+tr th span.missile {color:#367eb5;}
+
+
+/* Colora le flotte in ritorno */
+tr.return th span.ownattack {color:#D43635;}
+tr.return th span.attack {color:#D43635;}
+
+tr.return th span.ownespionage {color:#ffe400;}
+tr.return th span.espionage {color:#D43635;}
+
+tr.return th span.owntransport {color:#7EAD3D;}
+tr.return th span.owntransport a{color:#fff;}
+tr.return th span.ownharvest {color:#11A140;}
+tr.return th span.owncolony {color:#2BBFBF;}
+
+tr.return th span.ownfederation {color:#D43635;}
+tr.return th span.federation {color:#D43635;}
+
+tr.return th span.owndestroy {color:#FF3356;}
+tr.return th span.destroy {color:#FF3356;}
+
+tr.return { opacity: 0.4 }
+tr.flight th span a {color:#FFFFFF;}
+tr.return th span a {color:#FFFFFF;}
+
+/* ############# Colori in Galassia ############# */
+/* Membro della propria Ally*/
+.allymember {color: green;}
+/* Niubbo */
+.noob {color: lime;}
+/* Forte */
+.strong {color: #f00;}
+/* In Vacanza */
+.vacation {color: aqua;}
+/* Inattivo con (i) */
+.inactive {color: #6e6e6e;}
+/* Inattivo con (iI) */
+.longinactive {color: #4f4f4f;}
+/* Bannato */
+.banned {text-decoration: line-through; color: #fff;}
+/* Errore in tooltip */
+.warning {color: #FFA500; text-decoration:blink;}
+/* Spiata avvenuta senza tutte le sonde richieste */
+.notice {color: #FFFF00; text-decoration:blink;}
+
+tr th:has(> a.vacation) {
+	opacity: 0.4;
+}
+
+/* Colora Metallo, Cristallo, Deuterio, Energia
+in schermata Costruzioni, Cantiere Navale, Ricerca.. */
+td.l a + br + br + b {color: #835000;}
+td.l a + br + br + b + b {color: #00d0ef;}
+td.l a + br + br + b + b + b {color: #0078ff;}
+td.l a + br + br + b + b + b + b {color: #FFFF00;}
+/* Colori risorse pagina smantellamento */
+table tr th b { color: #B5B5B5;}
+table tr th b + b { color: #95DBF9;}
+table tr th b + b + b { color: #00CC00;}
+table tr th b + b + b + b { color: #FFFF00;}
+/* Spaziatura risorse pagina smantellamento */
+table tr th b:before{content:" "}
+table tr th b + b:before{content:" "}
+table tr th b + b + b:before{content:" "}
+table tr th b + b + b + b:before{content:" "}
+
+/* Colori nomi risorse in alto */
+tr > td + td > i > b > font {font-style:normal;color:#E6EBFB;}
+tr > td + td + td > i > b > font {font-style:normal;color:#E6EBFB;}
+tr > td + td + td + td > i > b > font {font-style:normal;color:#E6EBFB;}
+tr > td + td + td + td + td > i > b > font {font-style:normal;color:#E6EBFB;} 
+/* Colori cifre risorse in alto */
+table[width="100%"] tr + tr + tr > td + td[width="85"] {color:#B5B5B5;}
+table[width="100%"] tr + tr + tr > td + td + td[width="85"] {color:#95DBF9;}
+table[width="100%"] tr + tr + tr > td + td + td + td[width="85"] {color:#00CC00;}
+table[width="100%"] tr + tr + tr > td + td + td + td + td[width="85"] {color:#FFFF00;}
+/* Depositi Pieni */
+table[width="100%"] tr > td + td > font {text-decoration:blink;}
+/* Parentesi quadre nelle risorse in alto */
+i > b > font:before {content: "[  "}
+i > b > font:after {content: " ]"}
+/* Doppie parentesi cifre risorse in alto */
+table[width="100%"] tr + tr + tr > td + td[width="85"]:before{content: "«  "; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td[width="85"]:after {content: "  »"; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td + td[width="85"]:before{content: "«  "; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td + td[width="85"]:after {content: "  »"; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td + td + td[width="85"]:before{content: "«  "; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td + td + td[width="85"]:after {content: "  »"; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td + td + td + td[width="85"]:before{content: "« "; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td + td + td + td[width="85"]:after {content: " »"; font-size: 9px;}
+table[width="100%"] tr + tr + tr > td + td + td + td + td + td[width="85"]:before{content: ""}
+table[width="100%"] tr + tr + tr > td + td + td + td + td + td[width="85"]:after {content: ""}
+/* Distacca combo box scelta pianeta dalle risorse in alto */
+center table tr td + td center table tr td + td {padding-right:20px;}
+/* Larghezza dinamica in base al numero di cifre delle risorse in alto */
+td[width="85"]
+{
+	width: 92px !important;
+	padding-top : 0px;
+	padding-bottom : 0px;
+	padding-left : 10px; 
+	padding-right : 10px;
+}
+
+/* Colori pagina risorse */
+table[width="500"] tr > th + th {color:#B5B5B5;}
+table[width="500"] tr > th + th + th {color:#95DBF9;}
+table[width="500"] tr > th + th + th + th {color:#00CC00;}
+table[width="500"] tr > th + th + th + th + th {color:#FFFF00;}
+
+/* Velocità flotte */
+a[title~="Velocità:"]:after { content: " ("attr(title)")"; color: #50AAFF; font-size: 8px;}
+/* In francese */
+a[title~="Vitesse:"]:after { content: " ("attr(title)")"; color: #50AAFF; font-size: 8px;}
+/* In tedesco */
+a[title~="Geschwindigkeit:"]:after { content: " ("attr(title)")"; color: #50AAFF; font-size: 8px;}
+/* In inglese */
+a[title~="Speed:"]:after { content: " ("attr(title)")"; color: #50AAFF; font-size: 8px;}
+
+/* Tag spazi occupati */
+th a[title~="Spazi"]:before { content: "Spazi: ";}
+th a[title~="Spazi"]:after { content: " occupati"; color: #FFCC55;}
+/* In francese */
+th a[title~="Cases"]:before { content: "Cases: ";}
+th a[title~="Cases"]:after { content: " occupées"; color: #FFCC55;}
+/* In tedesco */
+th a[title~="Bebaute"]:before { content: "Felder: ";}
+th a[title~="Bebaute"]:after { content: " bebaute"; color: #FFCC55;}
+/* In inglese */
+th a[title="Developed fields"]:before { content: "Fields: ";}
+th a[title="Developed fields"]:after { content: " developed"; color: #FFCC55;}
+
+/* Tag spazi disponibili */
+th a[title="Numero massimo di spazi occupabili"]:after { content: " disponibili"; color: #33CC00;}
+/* In francese */
+th a[title="Nombre maximal de cases utilisables"]:after { content: " utilisables"; color: #33CC00;}
+/* In tedesco */
+th a[title="max. bebaubare Felder"]:after { content: " max. bebaubare"; color: #33CC00;}
+/* In inglese */
+th a[title="max. developed fields"]:after { content: " max. developed"; color: #33CC00;}
+
+/* Benvenuto */
+table[width="519"] td a[title~="Seleziona"]:before {content: "Benvenuto sul ";}
+/* In francese */
+table[width="519"] td a[title="planetenmenü"]:before {content: "Bienvenue sur le ";}
+/* In tedesco */
+table[width="519"] td a[title="Planetenmenü"]:before {content: "Willkommen auf ";}
+/* In inglese */
+table[width="519"] td a[title="Planet menu"]:before {content: "Welcome on the ";}
+/* Appellativo facoltativo (ad esempio Imperatore o Signore) */
+table[width="519"] td a[title~="Seleziona"]:after {content: "";}
+/* In francese */
+table[width="519"] td a[title="planetenmenü"]:after {content: "";}
+/* In tedesco */
+table[width="519"] td a[title="Planetenmenü"]:after {content: "";}
+/* In inglese */
+table[width="519"] td a[title="Planet menu"]:after {content: "";}
+
+/* Colore Tipo Missione */
+select[name="planettype"] option[value="1"]{color:#0099FF}
+select[name="planettype"] option[value="2"]{color:#996600}
+select[name="planettype"] option[value="3"]{color:#999999}
+
+/* Colore velocità */
+select[name="speed"] option[value="10"]{color:#00FF00}
+select[name="speed"] option[value="9"]{color:#33FF00}
+select[name="speed"] option[value="8"]{color:#66FF00}
+select[name="speed"] option[value="7"]{color:#99FF00}
+select[name="speed"] option[value="6"]{color:#CCFF00}
+select[name="speed"] option[value="5"]{color:#FFFF00}
+select[name="speed"] option[value="4"]{color:#FFCC00}
+select[name="speed"] option[value="3"]{color:#FF9900}
+select[name="speed"] option[value="2"]{color:#FF6600}
+select[name="speed"] option[value="1"]{color:#FF3300}
+select[name="speed"] option[value="0"]{color:#FF0000}
+
+select[name="auftr"] option[value="10"]{background:transparent}
+select[name="auftr"] option[value="9"]{background:transparent}
+select[name="auftr"] option[value="8"]{background:transparent}
+select[name="auftr"] option[value="7"]{background:transparent}
+select[name="auftr"] option[value="6"]{background:transparent}
+select[name="auftr"] option[value="5"]{background:transparent}
+select[name="auftr"] option[value="4"]{background:transparent}
+select[name="auftr"] option[value="3"]{background:transparent}
+select[name="auftr"] option[value="2"]{background:transparent}
+select[name="auftr"] option[value="1"]{background:transparent}
+select[name="auftr"] option[value="0"]{background:transparent}
+
+select[name="newrang"] option[value="10"]{background:transparent}
+select[name="newrang"] option[value="20"]{background:transparent}
+select[name="newrang"] option[value="30"]{background:transparent}
+select[name="newrang"] option[value="40"]{background:transparent}
+
+td font a:active{  background:#EEEEEE; color:#888888;}
+td font a:hover{ background:#313f4e; color:#fff;}
+
+/* Colora select box in schermata "Cerca" */
+select[name="type"] option[value="playername"]{color:#00FF00}
+select[name="type"] option[value="planetname"]{color:#0099FF}
+select[name="type"] option[value="allytag"]{color:#FF0000}
+select[name="type"] option[value="allyname"]{color:#FFCC33}
+
+/* Colora Player/Ally in schermata Statistiche */
+select[name="who"] option[value="player"]{color:#0099FF}
+select[name="who"] option[value="ally"]{color:#FF0000}
+
+/* Colora tipo di Classifica in schermata Statistiche */
+select[name="type"] option[value="pts"]{color:#FF0000}
+select[name="type"] option[value="flt"]{color:#00FF00}
+select[name="type"] option[value="res"]{color:#00FFFF}
+
+/* Colora Ranking in schermata Statistiche */
+select[name="start"] option[value="1"]{color:#00FF00}
+select[name="start"] option[value="101"]{color:#00FF33}
+select[name="start"] option[value="201"]{color:#33FF33}
+select[name="start"] option[value="301"]{color:#66FF33}
+select[name="start"] option[value="401"]{color:#99FF33}
+select[name="start"] option[value="501"]{color:#99FF00}
+select[name="start"] option[value="601"]{color:#CCFF00}
+select[name="start"] option[value="701"]{color:#FFFF00}
+select[name="start"] option[value="801"]{color:#FFEA00}
+select[name="start"] option[value="901"]{color:#FFCC00}
+select[name="start"] option[value="1001"]{color:#FF9900}
+select[name="start"] option[value="1101"]{color:#FF8300}
+select[name="start"] option[value="1201"]{color:#FF6600}
+select[name="start"] option[value="1301"]{color:#FF3300}
+select[name="start"] option[value="1401"]{color:#FF0000}
+
+/* Colora Priorità Note */
+select[name="u"] option[value="2"]{color:#FF0000}
+select[name="u"] option[value="1"]{color:#FFFF00}
+select[name="u"] option[value="0"]{color:#00FF00}
+
+/* Colora percentuali della schermata risorse */
+option[value="100"]{color:#00FF00}
+option[value="90"]{color:#33FF00}
+option[value="80"]{color:#66FF00}
+option[value="70"]{color:#99FF00}
+option[value="60"]{color:#CCFF00}
+option[value="50"]{color:#FFFF00}
+option[value="40"]{color:#FFCC00}
+option[value="30"]{color:#FF9900}
+option[value="20"]{color:#FF6600}
+option[value="10"]{color:#FF3300}
+option[value="0"]{color:#FF0000}
+
+/* Evita di colorare la coda di costruzione del cantiere navale */
+select[name="auftr"] option[value="10"]{color:#E6EBFB}
+select[name="auftr"] option[value="20"]{color:#E6EBFB}
+select[name="auftr"] option[value="30"]{color:#E6EBFB}
+select[name="auftr"] option[value="40"]{color:#E6EBFB}
+select[name="auftr"] option[value="50"]{color:#E6EBFB}
+select[name="auftr"] option[value="60"]{color:#E6EBFB}
+select[name="auftr"] option[value="70"]{color:#E6EBFB}
+select[name="auftr"] option[value="80"]{color:#E6EBFB}
+select[name="auftr"] option[value="90"]{color:#E6EBFB}
+select[name="auftr"] option[value="100"]{color:#E6EBFB}
+
+/* Evita di colorare i gradi quando si inviano Mail Circolari */
+select[name="r"] option[value="0"]{color:#E6EBFB}
+select[name="r"] option[value="10"]{color:#E6EBFB}
+select[name="r"] option[value="20"]{color:#E6EBFB}
+
+/* Evita di colorare gli obiettivi primari dei missili interplanetari */
+select[name="pziel"] option[value="0"]{color:#E6EBFB}
+
+/* Evita di colorare select box in amministra ally */
+select[name="bew"] option[value="0"]{color:#E6EBFB}
+select[name="bewforce"] option[value="0"]{color:#E6EBFB}
+
+/* Cambia colore al nome dell'infrastruttura, della ricerca, della nave, della difesa */
+tbody  td  td > a:first-child {color:#d29d00;}
+
+/* Cambia colore agli alleati in Statistiche per renderlo più visibile */
+th + th font[color="#87CEEB"]{color:#00FFFF}
+
+/* Toglie la sottolineatura da + e - in schermata Statistiche */
+th a[href="#"]{text-decoration:none}
+
+/* Rendi la schermata "Galassia" visualizzabile 
+in una sola schermata senza bisogno di scorrere 
+lungo la finestra...							*/
+img[height="30"]
+{
+	border : 0px;
+	width : 22px;
+	height : 22px;
+}
+
+/* Rimuove bordo fastidioso dei link con FF */
+a {outline: 0;}
+/* Rimuove bordo alle immagini con link con IE */
+a img {border: 0;}
+
+/* Fix Bug Commander nelle risorse */
+span.noresources 
+{ 
+  text-decoration:underline; 
+  font-weight: bold; 
+  color: #E6EBFB; 
+}
+
+/* Pubblicità commander in Riepilogo */
+/* Corpo */
+table[width="519"] tr td p
+{
+  font-size            : 10.5px; 
+  background-image     : url(img/background_dark.jpg);
+  background-attachment: fixed;
+  background-repeat    : no-repeat;
+  background-position  : top left;
+}
+/* Titolo */
+table[width="519"] tr td p font
+{
+  font-size            : 11px;
+  line-height          : 1px;
+  color                : #FFC420;
+}
+/* Link finale al servizio */
+table[width="519"] tr td p a font
+{
+  line-height          : 1px;
+  font-size            : 11px;
+  color                : #FFC420;
+}
+table[width="519"] tr td p a font u 
+{
+  text-decoration      : none;
+}
+table[width="519"] tr td p img
+{
+  width                : 0px;
+  height               : 0px;
+}
+
+
+
+
+#leftmenu td { /* Annulation du skin par defaut */
+  background-color: transparent;
+  vertical-align: center;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+#leftmenu table {      /* Cadre du tableau */
+  background: url(img/left_table.png) no-repeat;
+  background-size: 100% 100%;
+  width: 130px;
+  height: 380px;
+}
+
+#leftmenu table div {  /* Format du texte des liens */
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+}
+#leftmenu table div a, /* Liens du menu */
+#leftmenu table div a:visited,
+#leftmenu table div a:link {
+  color: #b0b3b6;
+  text-decoration: none;
+}
+/* Fine */
